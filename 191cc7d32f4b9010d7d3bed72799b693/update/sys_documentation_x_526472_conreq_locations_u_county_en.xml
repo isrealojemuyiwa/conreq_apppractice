@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_county" label="County" language="en" table="x_526472_conreq_locations">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_county</element>
+            <help/>
+            <hint/>
+            <label>County</label>
+            <language>en</language>
+            <name>x_526472_conreq_locations</name>
+            <plural>Counties</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-10 05:02:40</sys_created_on>
+            <sys_id>6851275b2f8b9010d7d3bed72799b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>County</sys_name>
+            <sys_package display_value="ConReq" source="x_526472_conreq">191cc7d32f4b9010d7d3bed72799b693</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ConReq">191cc7d32f4b9010d7d3bed72799b693</sys_scope>
+            <sys_update_name>sys_documentation_x_526472_conreq_locations_u_county_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-10 05:02:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

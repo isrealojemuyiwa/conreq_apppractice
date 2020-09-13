@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="ConReq" max_length="40" name="x_526472_conreq_conreq" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Breakout sessions" max_length="100" name="breakout_sessions" type="string"/>
+        <element attributes="omit_sys_original=true" label="Cost" max_length="20" name="cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Justification" max_length="100" name="justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of Conference" max_length="100" name="name_of_conference" type="string"/>
+        <element label="Paid" max_length="40" name="paid" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Rejection Reason" max_length="100" name="rejection_reason" type="string"/>
+        <element attributes="encode_utf8=false" label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Conference" mandatory="true" max_length="40" name="type_of_conference" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Academic" sequence="0" value="academic"/>
+                <element inactive_on_update="false" label="Business" sequence="1" value="business"/>
+                <element inactive_on_update="false" label="Professional" sequence="2" value="professional"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Conference Location Zip Code" max_length="32" name="u_reference_1" reference="x_526472_conreq_conreq_locations" type="reference"/>
+    </element>
+</database>

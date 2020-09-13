@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ConReq Locations" max_length="40" name="x_526472_conreq_conreq_locations" sizeclass="42522" type="collection">
+        <element label="Area code" max_length="40" name="area_code" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
+        <element label="County" max_length="40" name="county" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Time zone" max_length="40" name="time_zone" type="string"/>
+        <element display="true" label="Zip code" max_length="40" name="zip_code" type="string"/>
+    </element>
+</database>
